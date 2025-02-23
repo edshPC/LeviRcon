@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/edshPC/LeviRcon",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "info": {
         "name": "LeviRcon",
         "description": "LeviLamina Node.js mod for RCon support",
