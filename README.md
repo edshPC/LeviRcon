@@ -1,4 +1,4 @@
-# RconLLSE 
+# LeviRcon
 
 # EN: 
 Plugin for LeviLamina that adds support for executing commands via the RCon protocol.
