@@ -1,11 +1,14 @@
 # RconLLSE 
 
 # EN: 
-Plugin for LLSE that adds support for executing commands via the RCon protocol.
+Plugin for LeviLamina that adds support for executing commands via the RCon protocol.
 
-To install the plugin you need to go to [**releases**](https://github.com/mineserv-top/RconLLSE/releases/) and download **"RConLLSE.llplugin"**, then put it in a folder **"./plugins/"** and restart the server.
+To install the plugin use lip command:
+```bash
+lip install -y github.com/edshPC/LeviRcon
+```
 
-Plugin configuration in **"./plugins/RConLLSE/config.json"**.
+Plugin configuration will be in **"./plugins/LeviRcon/config/config.json"**.
 
 Default Config -
 
@@ -13,18 +16,20 @@ Default Config -
 {
     "RConServer": {
         "port": 25575,
-        "password": "UltraMoshniyParol228!!!"
+        "password": "Change this to your password"
     }
 }
 ```
-The plugin was developed specifically for Minecraft servers monitoring [**Mineserv.top**](https://mineserv.top)
 
 # RU:
-Плагин для LLSE, который добавляет поддержку выполнения команд по протоколу RCon.
+Плагин для LeviLamina, который добавляет поддержку выполнения команд по протоколу RCon.
 
-Для установки плагина тебе необходимо перейти к [**релизам**](https://github.com/mineserv-top/RconLLSE/releases/) и загрузить оттуда файл **"RConLLSE.llplugin"**, затем закинуть его в папку **"./plugins/"** и перезагрузить сервер.
+Чтобы установить плагин используй команду lip:
+```bash
+lip install -y github.com/edshPC/LeviRcon
+```
 
-Настройка плагина производится в файле **"./plugins/RConLLSE/config.json"**.
+Настройка плагина производится в файле **"./plugins/LeviRcon/config/config.json"**.
 
 Пример конфига -
 
@@ -32,35 +37,7 @@ The plugin was developed specifically for Minecraft servers monitoring [**Minese
 {
     "RConServer": {
         "port": 25575,
-        "password": "UltraMoshniyParol228!!!"
+        "password": "Change this to your password"
     }
 }
 ```
-
-Плагин был разработан специально для мониторинга Minecraft серверов [**Mineserv.top**](https://mineserv.top)
-
-# ZH:
-
-一个LLSE插件，加入了对类似Java服务器的RCON协议的支持，用于执行命令
-
-要安装这个插件，你需要进入[**releases**](https://github.com/mineserv-top/RconLLSE/releases/)下载 **"RConLLSE.llplugin"**，然后把它扔进BDS的plugins目录，重启服务器即可
-
-插件的配置文件在 **"./plugins/RConLLSE/config.json"**.
-
-默认配置
-
-```json
-{
-
-    "RConServer": {
-
-        "port": 25575,
-
-        "password": "UltraMoshniyParol228!!!"
-
-    }
-
-}
-```
-
-这个插件是专门为监控 Minecraft 服务器而设计的 [**Mineserv.top**](https://mineserv.top)

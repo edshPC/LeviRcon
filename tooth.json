@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/edshPC/LeviRcon",
+    "version": "1.1.0",
+    "info": {
+        "name": "LeviRcon",
+        "description": "LeviLamina Node.js mod for RCon support",
+        "author": "edshPC",
+        "tags": [
+            "levilamina",
+            "mod",
+            "rcon"
+        ]
+    },
+    "dependencies": {
+        "gitea.litebds.com/LiteLDev/legacy-script-engine-nodejs": ">= 0.8.0"
+    },
+    "prerequisites": {
+        "github.com/LiteLDev/LeviLamina": ">= 0.13.4"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "LeviRcon/*",
+                "dest": "plugins/LeviRcon/"
+            }
+        ]
+    }
+}
