@@ -86,11 +86,14 @@ class RconServer {
                 // Handle client disconnections
                 this.clients.splice(this.clients.indexOf(client), 1);
             });
+
+            socket.on('error', (err) => {
+                logger.error(`Socket error: ${err}`);
+            });
         });
 
         this.server.on('error', (err) => {
-            // Handle server errors
-            logger.error(`Error: ${err}`);
+            logger.error(`Server error: ${err}`);
         });
 
         this.server.listen(this.port, () => {
